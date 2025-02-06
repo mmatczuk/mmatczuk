@@ -32,7 +32,7 @@ Leading the development of high-performance networking infrastructure:
 - Served as on-call engineer managing production incidents with PagerDuty
 - Delivered presentations at Go meetups in Berlin and Warsaw
 
-#### Open Source Contributions
+#### Open-Source Contributions:
 
 - [**github.com/saucelabs/forwarder**](https://github.com/saucelabs/forwarder) ![](https://img.shields.io/github/stars/saucelabs/forwarder) ![](https://img.shields.io/github/forks/saucelabs/forwarder) ![](https://img.shields.io/github/contributors/saucelabs/forwarder)<br/>
 Lead developer and maintainer of Forwarder, an enterprise-grade HTTP MITM proxy written in Go that powers Sauce Connect.
@@ -52,7 +52,7 @@ Led the development of database management tools and drivers:
 - Maintained the Scylla Go driver fork [scylladb/gocql](https://github.com/scylladb/gocql)
 - Created experimental Go driver achieving 4x performance improvement over gocql and 2x performance improvement over our Rust driver (see this [blog post](https://www.scylladb.com/2022/10/12/a-new-scylladb-go-driver-faster-than-gocql-and-its-rust-counterpart/))
 
-#### Open Source Contributions:
+#### Open-Source Contributions:
 
 - [**github.com/scylladb/gocqlx**](https://github.com/scylladb/gocqlx) ![](https://img.shields.io/github/stars/scylladb/gocqlx) ![](https://img.shields.io/github/forks/scylladb/gocqlx) ![](https://img.shields.io/github/contributors/scylladb/gocqlx) <br/>
 Created a suite of tools, including a CQL query builder, ORM, and migration tool, for Cassandra when I joined Scylla.
@@ -75,11 +75,11 @@ Developed a system for secure access to private cloud infrastructure from the pu
 - Contributed to [github.com/koding/tunnel](https://github.com/koding/tunnel)
 - Created HTTP tunneling technology based on TLS and HTTP/2
 
-#### Open Source Contributions:
+#### Open-Source Contributions:
 
 - [**github.com/mmatczuk/go-http-tunnel**](https://github.com/mmatczuk/go-http-tunnel/) ![](https://img.shields.io/github/stars/mmatczuk/go-http-tunnel) ![](https://img.shields.io/github/forks/mmatczuk/go-http-tunnel) ![](https://img.shields.io/github/contributors/mmatczuk/go-http-tunnel) <br/>
 Created HTTP/2-based Ngrok clone during my time at StratoScale.
-The project was discontinued, and the code has been open-sourced.
+The project was discontinued, and the code has been open sourced.
 It was recognized by [Kelsey Hightower on Twitter](https://twitter.com/kelseyhightower/status/950375855569514497); the link no longer works as the account has been deleted. You can see the contents below:
 
 > HTTP tunnels are also great for exposing applications running locally to the outside world; even if you don't have a public IP. @michalmatczuk makes this easy for us with his super dope go-http-tunnel project…
@@ -97,7 +97,7 @@ It was recognized by [Kelsey Hightower on Twitter](https://twitter.com/kelseyhig
 - Optimized database operations and transaction handling
 - Worked with Comsec on securing the product
 
-## Other Open Source Projects
+## Other Open-Source Projects
 
 - [**github.com/mmatczuk/anyflag**](https://github.com/mmatczuk/anyflag) ![](https://img.shields.io/github/stars/mmatczuk/anyflag) ![](https://img.shields.io/github/forks/mmatczuk/anyflag) ![](https://img.shields.io/github/contributors/mmatczuk/anyflag) <br/>
 Generic implementation of Cobra flag binding types, enabling easy, boilerplate-free creation of custom flag bindings
