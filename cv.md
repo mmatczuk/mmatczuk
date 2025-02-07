@@ -1,5 +1,6 @@
 # Michał Matczuk
 
+- Email: [mmatczuk@gmail.com](mailto:mmatczuk@gmail.com)
 - GitHub: [github.com/mmatczuk](https://github.com/mmatczuk)
 - LinkedIn: [linkedin.com/in/mmatczuk](https://www.linkedin.com/in/mmatczuk/)
 
