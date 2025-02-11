@@ -14,6 +14,7 @@ Specializing in high-performance systems development with Go. Extensive expertis
 **Technologies**: TCP/IP, TLS, HTTP/2, CQL, Wireshark, LXC, Envoy
 **Databases**: ScyllaDB, Cassandra
 **Specialties**: Systems Programming, Protocol Design, Performance Profiling
+**Others**: Kubernetes, gRPC, OpenAPI 
 
 ## Education
 
@@ -115,4 +116,4 @@ Zero-overhead net.Conn wrapper programming toolkit for Go
 
 ## References
 
-References available upon request.
+References available upon request, you may also check my recommendations on LinkedIn. 
