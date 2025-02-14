@@ -8,9 +8,9 @@ The most up-to-date version of this CV is available online at [github.com/mmatcz
 
 ## Professional Summary
 
-Specializing in high-performance systems development with Go. Extensive expertise in network programming, database systems, and performance optimization. Proven track record of building and scaling critical infrastructure handling terabytes of daily traffic.
+Generalist with interests ranging from database internals to micro SaaS. I embrace extreme ownership and do whatever it takes to drive results. I enjoy solving complex problems and pay close attention to detail to create efficient, non-overengineered solutions. I try to keep things boring.
 
-I enjoy solving complex problems in challenging environments, leveraging my attention to detail to create efficient solutions that meet all requirements without over-engineering.
+I specialize in high-performance systems development with Go, with extensive expertise in network programming, database systems, and performance optimization. I have a proven track record of building and scaling critical infrastructure that handles terabytes of data daily.
 
 **Core Expertise**: Go, Network Programming, Performance Optimization, Database Systems
 **Technologies**: TCP/IP, TLS, HTTP/2, CQL, Wireshark, LXC, Envoy
