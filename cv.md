@@ -1,3 +1,5 @@
+The most up-to-date version of this CV is available online at [github.com/mmatczuk/mmatczuk/blob/main/cv.md](https://github.com/mmatczuk/mmatczuk/blob/main/cv.md)
+
 # Michał Matczuk
 
 - Email: [mmatczuk@gmail.com](mailto:mmatczuk@gmail.com)
@@ -8,7 +10,7 @@
 
 Specializing in high-performance systems development with Go. Extensive expertise in network programming, database systems, and performance optimization. Proven track record of building and scaling critical infrastructure handling terabytes of daily traffic.
 
-## Technical Skills
+I enjoy solving complex problems in challenging environments, leveraging my attention to detail to create efficient solutions that meet all requirements without over-engineering.
 
 **Core Expertise**: Go, Network Programming, Performance Optimization, Database Systems
 **Technologies**: TCP/IP, TLS, HTTP/2, CQL, Wireshark, LXC, Envoy
