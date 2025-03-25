@@ -8,11 +8,13 @@ The most up-to-date version of this CV is available online at [github.com/mmatcz
 
 ## Professional Summary
 
-Generalist with interests ranging from database internals to micro SaaS. I embrace extreme ownership and do whatever it takes to drive results. I enjoy solving complex problems and pay close attention to detail to create efficient, non-overengineered solutions. I try to keep things boring.
+I specialize in building resilient, fault-tolerant systems that process terabytes of data daily across distributed environments.
+Deep expertise in Go, network programming, and distributed database technologies with proven success optimizing performance in multi-node distributed architectures.
 
-I specialize in high-performance systems development with Go, with extensive expertise in network programming, database systems, and performance optimization. I have a proven track record of building and scaling critical infrastructure that handles terabytes of data daily.
+## Technical Skills
 
-**Core Expertise**: Go, Network Programming, Performance Optimization, Database Systems
+**Core Expertise**: Distributed Systems Architecture, Go, Network Programming, Performance Optimization
+**Distributed Systems**: Sharding, Distributed Databases, Fault Tolerance, Horizontal Scaling
 **Technologies**: TCP/IP, TLS, HTTP/2, CQL, Wireshark, LXC, Envoy
 **Databases**: ScyllaDB, Cassandra
 **Specialties**: Systems Programming, Protocol Design, Performance Profiling
@@ -25,36 +27,36 @@ I specialize in high-performance systems development with Go, with extensive exp
 
 ## Professional Experience
 
-### Staff Software Engineer, Sauce Labs (Vancouver, Canada / Remote) (2022 - Present)
+### Staff Software Engineer, SauceLabs (Vancouver, Canada / Remote) (2022 - Present)
 
-Leading the development of high-performance networking infrastructure:
+Leading the development of high-performance distributed networking infrastructure:
 
-- Rewrote a production reverse HTTP proxy (6TB+ daily traffic) without service interruption
-- Achieved 10x throughput improvement through redesign, use of HTTP/2, and efficient Go implementation (see this [blog post](https://saucelabs.com/resources/blog/sauce-connect-5-2-0-migration))
-- Contributed to the Go standard library
-- Specialized in resolving client issues across diverse environments (Windows, macOS, Linux), and in complicated corporate network setups
+- Architected and rewrote a production distributed reverse HTTP proxy (6TB+ daily traffic) without service interruption
+- Achieved 10x throughput improvement through protocol redesign (use of HTTP/2) and efficient Go implementation (see this [blog post](https://saucelabs.com/resources/blog/sauce-connect-5-2-0-migration))
+- Contributed to the Go core through issue reporting and patches ([CL 456435](https://go-review.googlesource.com/c/go/+/456435), [WIP](https://github.com/mmatczuk/xnet/pull/1))
+- Specialized in resolving client issues across diverse environments (Windows, macOS, Linux) and in complicated corporate network setups
 - Served as on-call engineer managing production incidents with PagerDuty
 - Delivered presentations at Go meetups in Berlin and Warsaw
 
 #### Open-Source Contributions:
 
-- [**github.com/saucelabs/forwarder**](https://github.com/saucelabs/forwarder) ![](https://img.shields.io/github/stars/saucelabs/forwarder) ![](https://img.shields.io/github/forks/saucelabs/forwarder) ![](https://img.shields.io/github/contributors/saucelabs/forwarder)<br/>
-Lead developer and maintainer of Forwarder, an enterprise-grade HTTP MITM proxy written in Go that powers Sauce Connect.
-The project has been based on the Google Martian, enhanced with comprehensive bug fixes, and almost entirely rewritten over time.
-The documentation is available [here](https://opensource.saucelabs.com/forwarder/).
 - Go standard library
   - Reported [various issues](https://github.com/golang/go/issues?q=is%3Aissue%20author%3Ammatczuk) mainly in the domain of net/http
   - [CL 456435](https://go-review.googlesource.com/c/go/+/456435) net/http: use copyBufPool in transferWriter.doBodyCopy()
   - [WIP](https://github.com/mmatczuk/xnet/pull/1) http2: fix request reservation when StrictMaxConcurrentStreams is enabled
+- [**github.com/saucelabs/forwarder**](https://github.com/saucelabs/forwarder) ![](https://img.shields.io/github/stars/saucelabs/forwarder) ![](https://img.shields.io/github/forks/saucelabs/forwarder) ![](https://img.shields.io/github/contributors/saucelabs/forwarder)<br/>
+Lead developer and maintainer of Forwarder, an enterprise-grade HTTP MITM proxy written in Go that powers Sauce Connect.
+The project has been based on the Google Martian, enhanced with comprehensive bug fixes, and almost entirely rewritten over time.
+The documentation is available [here](https://opensource.saucelabs.com/forwarder/).
 
 ### Tech Lead, ScyllaDB (Herzliya, Israel / Remote) (2017 - 2022)
 
-Led the development of database management tools and drivers:
+Led the development of distributed database management tools and drivers:
 
-- Created [Scylla Manager](https://manager.docs.scylladb.com/stable/), a high-performance backup and repair automation system
-- Created [scylladb/gocqlx](https://github.com/scylladb/gocqlx), a widely-adopted flexible ORM for ScyllaDB and Cassandra
-- Maintained the Scylla Go driver fork [scylladb/gocql](https://github.com/scylladb/gocql)
-- Created experimental Go driver achieving 4x performance improvement over gocql and 2x performance improvement over our Rust driver (see this [blog post](https://www.scylladb.com/2022/10/12/a-new-scylladb-go-driver-faster-than-gocql-and-its-rust-counterpart/))
+- Designed a high-performance distributed backup and repair automation system (Scylla Manager) for multi-node database clusters
+- Created [gocqlx](https://github.com/scylladb/gocqlx) - a widely-adopted ORM for distributed ScyllaDB and Cassandra databases
+- Maintained the Scylla Go driver fork [gocql](https://github.com/scylladb/gocql) with focus on distributed query routing and connection pooling
+- Led development of an experimental [scylla-go-driver](https://github.com/scylladb/scylla-go-driver) - achieving 2x performance over the Rust implementation (lead by Piotr Sarna LOL) with improved distributed node coordination (see this [blog post](https://www.scylladb.com/2022/10/12/a-new-scylladb-go-driver-faster-than-gocql-and-its-rust-counterpart/))
 
 #### Open-Source Contributions:
 
@@ -74,10 +76,7 @@ More details can be found in [this blog post](https://www.scylladb.com/2022/10/1
 
 ### Software Engineer, StratoScale (Herzliya, Israel / Remote) (2016 - 2017)
 
-Developed a system for secure access to private cloud infrastructure from the public internet:
-
-- Contributed to [github.com/koding/tunnel](https://github.com/koding/tunnel)
-- Created HTTP tunneling technology based on TLS and HTTP/2
+Specialized in network programming and secure infrastructure access:
 
 #### Open-Source Contributions:
 
@@ -88,12 +87,9 @@ It was recognized by [Kelsey Hightower on Twitter](https://twitter.com/kelseyhig
 
 > HTTP tunnels are also great for exposing applications running locally to the outside world; even if you don't have a public IP. @michalmatczuk makes this easy for us with his super dope go-http-tunnel project…
 
-### Software Engineer, Conforama (Paris, France / Remote) (2012 - 2016)
-
-- Led the development of an in-store sales system deployed across 200+ locations
+- Led the development of a distributed sales system across 200+ locations
 - Designed high-performance MongoDB-based backend services
 - Implemented a real-time data synchronization system
-- Worked on Android sales app
 
 ### Software Engineer, Clear2Pay (Amsterdam, Netherlands / Remote) (2010 - 2012)
 
@@ -110,12 +106,8 @@ Zero-overhead net.Conn wrapper programming toolkit for Go
 
 ## Notable Achievements
 
-- Built a personal residence (2024)
-- Ran full marathon (2023)
+- Built a house (2024)
+- Ran marathon (2023)
 - Got technical blog post to #1 on Hacker News (see this [blog post](https://www.scylladb.com/2022/04/27/shaving-40-off-googles-b-tree-implementation-with-go-generics/)) (2022)
 - Won internal Scylla Hackathon (2021)
 - Husband and father of three
-
-## References
-
-References available upon request, you may also check my recommendations on LinkedIn. 
