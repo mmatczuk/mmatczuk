@@ -8,3 +8,8 @@ cv.pdf: cv.md
 	pandoc -f markdown -t pdf -V geometry:margin=1.25in \
 	-V colorlinks=true -V linkcolor=blue \
 	-o cv.pdf cv.md
+
+.PHONY: install-brewupgrade
+install-brewupgrade:
+	cp com.user.brewupgrade.plist ~/Library/LaunchAgents/
+	launchctl load ~/Library/LaunchAgents/com.user.brewupgrade.plist
